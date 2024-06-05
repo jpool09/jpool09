@@ -5,7 +5,7 @@ With 5 years of experience in programming, I am deeply passionate about learning
 
 ## GitHub Stats
 
-![Profile Summary Cards](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jpool09&theme=radical)
+![Profile Summary Cards](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jpool09&theme=transparent)
 
 
 ## Contact
