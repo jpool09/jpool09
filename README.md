@@ -5,7 +5,7 @@ With 5 years of experience in programming, I am deeply passionate about learning
 
 ## GitHub Stats
 
-![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=jpool09&theme=react-dark)
+![Profile Summary Cards](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jpool09&theme=radical)
 
 
 ## Contact
