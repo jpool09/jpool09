@@ -1,16 +1,24 @@
-## Hi there 👋
+# Hello World! I'm Jean Pool Cruz
 
-<!--
-**jpool09/jpool09** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+With 5 years of experience in programming, I am deeply passionate about learning and technology 🧠. Currently, I am focusing my career on mastering JavaScript with an emphasis on FullStack development 🚀. My journey in the tech world has been driven by a relentless curiosity and a desire to create impactful solutions through code. Whether it's developing robust backend systems or crafting dynamic front-end interfaces, I thrive on tackling new challenges and continuously expanding my skill set. ⛩️
 
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## GitHub Stats
+
+![Your Name GitHub stats](https://github-readme-stats.vercel.app/api?username=jpool09&show_icons=true&theme=radical)
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=jpool09&theme=dark)
+
+![trophy](https://github-profile-trophy.vercel.app/?username=jpool09&theme=dracula)
+
+## Featured Projects
+
+- [Project 1](https://github.com/your-username/project1): Brief description of the project.
+- [Project 2](https://github.com/your-username/project2): Brief description of the project.
+
+## Contact
+
+- [LinkedIn](https://www.linkedin.com/in/your-username/)
+- [Twitter](https://twitter.com/your-username)
+
+Thanks for visiting my profile!
