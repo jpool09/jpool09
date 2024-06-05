@@ -5,26 +5,13 @@ With 5 years of experience in programming, I am deeply passionate about learning
 
 ## GitHub Stats
 
-![Jean Pool Cruz GitHub stats](https://github-readme-stats.vercel.app/api?username=jpool09&show_icons=true&theme=radical)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jpool09&layout=compact&theme=radical)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=jpool09&theme=dark)
-
-![Profile Summary Cards](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jpool09&theme=radical)
-
 ![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=jpool09&theme=react-dark)
 
-![Visitor Count](https://komarev.com/ghpvc/?username=jpool09)
-
-## Featured Projects
-
-- [Project 1](https://github.com/your-username/project1): Brief description of the project.
-- [Project 2](https://github.com/your-username/project2): Brief description of the project.
 
 ## Contact
 
-- [LinkedIn](https://www.linkedin.com/in/your-username/)
-- [Twitter](https://twitter.com/your-username)
+- [LinkedIn](https://www.linkedin.com/in/jean-pool-cruz-cespedes-985a02173/)
+- [Twitter](https://twitter.com/jpoolC09)
 
-Thanks for visiting my profile!
+
+Thanks for visiting my profile! 🔥
