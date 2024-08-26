@@ -11,7 +11,7 @@ With 5 years of experience in programming, I am deeply passionate about learning
 ## Contact
 
 - [LinkedIn](https://www.linkedin.com/in/jean-pool-cruz-cespedes-985a02173/)
-- [Twitter](https://twitter.com/jpoolC09)
+- [Twitter](https://x.com/CruzonChain)
 
 
 Thanks for visiting my profile! 🔥
