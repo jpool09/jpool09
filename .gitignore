@@ -1,0 +1,5 @@
+.venv/
+*.svg.png
+*-static.svg
+.DS_Store
+__pycache__/

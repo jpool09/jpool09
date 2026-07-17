@@ -1,0 +1,39 @@
+name: Update profile art
+
+# Re-scrapes the public contribution graph and re-renders the heatmap SVG daily.
+# No secrets/tokens: uses the built-in GITHUB_TOKEN only to push the updated SVG.
+on:
+  schedule:
+    - cron: "17 6 * * *"   # every day ~06:17 UTC
+  workflow_dispatch: {}      # manual "Run workflow" button
+
+permissions:
+  contents: write            # needs Settings -> Actions -> "Read and write"
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install -r scripts/requirements.txt
+
+      - name: Re-scrape contributions + re-render heatmap
+        env:
+          GH_PROFILE_USER: ${{ github.repository_owner }}
+        run: |
+          python scripts/fetch_contributions.py
+          python scripts/render_heatmap_svg.py
+
+      - name: Commit if the graph changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add contrib-heatmap.svg data/contributions.json
+          git diff --cached --quiet || git commit -m "chore: refresh contribution graph"
+          git push
