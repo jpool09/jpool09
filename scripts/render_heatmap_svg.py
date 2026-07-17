@@ -98,7 +98,7 @@ def render(data):
             break
 
     canvas_w = PAD + LEFT_LABEL_W + art_w + PAD
-    stats_h = 88
+    stats_h = 6  # just the legend row; stats footer removed
     canvas_h = TITLEBAR_H + TOP_LABEL_H + art_h + stats_h + PAD
 
     css = f"""
@@ -163,30 +163,6 @@ def render(data):
         parts.append(f'<rect x="{lx}" y="{leg_y}" width="{CELL-1}" height="{CELL-1}" rx="2.2" fill="{color}"/>')
         lx += CELL
     parts.append(f'<text x="{lx + 4}" y="{leg_y + CELL*0.8:.1f}" fill="{MUTED}" font-size="10">More</text>')
-
-    sep_y = leg_y + CELL + 14
-    parts.append(f'<line x1="0" y1="{sep_y}" x2="{canvas_w}" y2="{sep_y}" stroke="{FRAME}" stroke-opacity="0.25"/>')
-
-    cs = data["current_streak"]["length"]
-    ls = data["longest_streak"]["length"]
-    total = data["total_contributions"]
-    best = data["best_day"]
-    rng = data["range"]
-
-    ly = sep_y + 24
-    # left column: big highlighted numbers; right column: context in muted
-    parts.append(f'<text x="{PAD}" y="{ly}" font-size="13" fill="{GREEN}">'
-                 f'<tspan font-weight="700">{total:,}</tspan>'
-                 f'<tspan fill="{MUTED}"> contributions in the last year</tspan></text>')
-    parts.append(f'<text x="{canvas_w - PAD}" y="{ly}" font-size="12" fill="{MUTED}" text-anchor="end">'
-                 f'{rng["start"]} &#8594; {rng["end"]}</text>')
-    ly += 24
-    parts.append(f'<text x="{PAD}" y="{ly}" font-size="13" fill="{MUTED}">current streak '
-                 f'<tspan fill="{ACCENT}" font-weight="700">{cs} days</tspan>'
-                 f'<tspan fill="{MUTED}">   &#183;   longest </tspan>'
-                 f'<tspan fill="{ACCENT}" font-weight="700">{ls} days</tspan></text>')
-    parts.append(f'<text x="{canvas_w - PAD}" y="{ly}" font-size="12" fill="{MUTED}" text-anchor="end">'
-                 f'best day <tspan fill="{GOLD}" font-weight="700">{best["count"]}</tspan> on {best["date"]}</text>')
 
     parts.append("</svg>")
     return "".join(parts)
