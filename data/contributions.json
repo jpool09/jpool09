@@ -1,22 +1,22 @@
 {
   "username": "jpool09",
-  "generated_at": "2026-08-21T07:05:30Z",
+  "generated_at": "2026-08-22T06:57:17Z",
   "range": {
     "start": "2025-08-17",
+    "end": "2026-08-22"
+  },
+  "total_contributions": 1992,
+  "active_days": 260,
+  "avg_per_active_day": 7.7,
+  "current_streak": {
+    "length": 40,
+    "start": "2026-07-13",
     "end": "2026-08-21"
   },
-  "total_contributions": 1976,
-  "active_days": 259,
-  "avg_per_active_day": 7.6,
-  "current_streak": {
-    "length": 39,
-    "start": "2026-07-13",
-    "end": "2026-08-20"
-  },
   "longest_streak": {
-    "length": 39,
+    "length": 40,
     "start": "2026-07-13",
-    "end": "2026-08-20"
+    "end": "2026-08-21"
   },
   "best_day": {
     "date": "2026-06-18",
@@ -73,7 +73,7 @@
     },
     {
       "month": "2026-08",
-      "total": 218
+      "total": 234
     }
   ],
   "days": [
@@ -1551,10 +1551,14 @@
     },
     {
       "date": "2026-08-20",
-      "count": 17
+      "count": 18
     },
     {
       "date": "2026-08-21",
+      "count": 15
+    },
+    {
+      "date": "2026-08-22",
       "count": 0
     }
   ]
